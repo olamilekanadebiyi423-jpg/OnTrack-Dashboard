@@ -1,7 +1,7 @@
 /* --- CSS Variables for Theming --- */
-/* :root { */
-  /* Light Mode Colors */
-  /* --bg-main: #f5f6fa;
+:root {
+  Light Mode Colors
+  --bg-main: #f5f6fa;
   --bg-sidebar: #ffffff;
   --bg-right-panel: #f8f9fc;
   --bg-card: #ffffff;
@@ -25,7 +25,7 @@
   --calendar-active-text: #ffffff;
   
   --icon-filter: none;
-} */
+}
 
 [data-theme="dark"] {
   /* Dark Mode Colors based on Figma */
