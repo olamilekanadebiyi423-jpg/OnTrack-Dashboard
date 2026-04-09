@@ -355,12 +355,19 @@ body {
   border-radius: 8px;
   width: 100%;
 }
-.tag { font-weight: bold; font-size: 13px; }
-.after { color: var(--text-secondary); font-size: 13px; margin: 15px 0 10px 0; }
+.tag { 
+  font-weight: bold; 
+  font-size: 13px; 
+}
+.after { color: var(--text-secondary); 
+  font-size: 13px; 
+  margin: 15px 0 10px 0; 
+}
 
-/* --- Responsive Layout (Tablet & Mobile) --- */
 @media (max-width: 1024px) {
-  .container { grid-template-columns: 80px 1fr 280px; }
+  .container { 
+    grid-template-columns: 80px 1fr 280px; 
+  }
   .sidebar h2, .sidebar li span, .logout { display: none; }
   .sidebar li { justify-content: center; }
 }
@@ -372,7 +379,6 @@ body {
     overflow: visible;
   }
   
-  /* Transform Sidebar into Bottom Nav */
   .sidebar {
     position: fixed;
     bottom: 0;
@@ -393,7 +399,6 @@ body {
   }
   .sidebar li { padding: 8px; margin: 0; }
   
-  /* Main area needs padding at the bottom so content isn't hidden behind the nav */
   .main { padding: 15px 15px 80px 15px; }
   
   .right-panel {
