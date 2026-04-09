@@ -263,7 +263,10 @@ body {
   text-align: center;
   gap: 5px;
 }
-.weekdays div { font-size: 12px; color: var(--text-secondary); margin-bottom: 10px; }
+.weekdays div {
+   font-size: 12px; 
+   color: var(--text-secondary); 
+   margin-bottom: 10px; }
 .days div {
   padding: 8px 0;
   border-radius: 6px;
@@ -273,13 +276,17 @@ body {
 }
 .days .muted { color: var(--border-color); }
 .days .active-day {
-  background: var(--calendar-active-bg);
-  color: var(--calendar-active-text);
+  background: blue;
+  color: white;
 }
 
 /* Classes */
 .classes { margin-top: 30px; }
-.classes h3 { color: var(--accent-pink); font-size: 16px; margin-bottom: 15px; }
+.classes h3 {
+ color: var(--accent-pink); 
+ font-size: 16px; 
+ margin-bottom: 15px; 
+}
 
 .class-card {
   display: flex;
