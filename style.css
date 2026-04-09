@@ -81,9 +81,13 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.sidebar h2 { margin-bottom: 30px; }
+.sidebar h2 { 
+  margin-bottom: 30px; 
+}
 
-.sidebar ul { list-style: none; }
+.sidebar ul { 
+  list-style: none; 
+}
 
 .sidebar li {
   padding: 12px;
@@ -97,15 +101,20 @@ body {
   transition: background 0.2s;
 }
 
-.sidebar li img { filter: var(--icon-filter); }
+.sidebar li img { 
+  filter: var(--icon-filter); 
+}
 
-.sidebar li:hover { background: var(--bg-hover); }
+.sidebar li:hover { 
+  background: var(--bg-hover); 
+}
 
 .sidebar li.active {
   color: var(--accent-purple);
   font-weight: bold;
 }
-.sidebar li.active img { filter: none; } 
+.sidebar li.active img { 
+  filter: none; } 
 
 .logout {
   margin-top: auto;
